@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal">
+   <children>
+      <Label layoutX="79.0" layoutY="8.0" prefHeight="47.0" prefWidth="283.0" text="Metodos Numericos">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="86.0" prefHeight="30.0" prefWidth="138.0" text="Ingresar Valor Decimal">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lb_respuesta_binario" layoutX="157.0" layoutY="114.0" prefHeight="40.0" prefWidth="283.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField_ingresar_decimal" layoutX="157.0" layoutY="87.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="btn_calc_binario" layoutX="324.0" layoutY="88.0" mnemonicParsing="false" onAction="#btnCalcularBinario" text="Calcular" />
+      <Label layoutX="18.0" layoutY="156.0" prefHeight="30.0" prefWidth="138.0" text="Ingresar Valor Binario">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lb_respuesta_decimal" layoutX="157.0" layoutY="185.0" prefHeight="40.0" prefWidth="283.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField_ingresar_binario" layoutX="157.0" layoutY="158.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="btn_calc_decimal" layoutX="324.0" layoutY="158.0" mnemonicParsing="false" onAction="#btnCalcularDecimal" text="Calcular" />
+      <Label layoutX="54.0" layoutY="117.0" prefHeight="30.0" prefWidth="96.0" text="Valor Binario" />
+      <Label layoutX="54.0" layoutY="195.0" prefHeight="30.0" prefWidth="96.0" text="Valor Decimal" />
+   </children>
+</Pane>
